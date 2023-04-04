@@ -1,0 +1,32 @@
+@import "./Utils/fonction";
+@import "./Utils/mixins";
+@import "./Utils/variable";
+
+
+@import "./Accueil/accueilDemarches";
+@import "./Accueil/accueilEvent";
+@import "./Accueil/accueilNews";
+
+
+@import "./Base/base";
+@import "./Base/font";
+
+
+@import "./Composants/boutonsDlAccueil";
+
+@import "./Contact/contactPresentation";
+
+@import "./Evenement/eventMain";
+@import "./Evenement/eventPresentation";
+
+@import "./Layout/footer";
+@import "./Layout/form";
+@import "./Layout/header";
+@import "./Layout/headerContact";
+@import "./Layout/headerevenement";
+@import "./Layout/menu-burger";
+
+@import "./Pages/accueil";
+@import "./Pages/contact";
+@import "./Pages/evenement";
+
