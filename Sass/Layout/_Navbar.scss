@@ -1,13 +1,25 @@
-.NavBar{
+.NavBar {
     display: flex;
-    .Menu{
-    align-content: space-evenly;
-    flex-direction: row;
-    
+
+    .Menu {
+        display: flex;
+        width: 120%;
+        list-style-type: none;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-left: 5%;
+        margin-left: 15%;
+
+        a {
+            color: black;
+            font-size: xx-large;
+            text-decoration: none;
+
+        }
+    }
 }
 
-}
-.LogoSamaraBijoux{
+.LogoSamaraBijoux {
     display: flex;
     width: 150px;
     justify-content: flex-start;
