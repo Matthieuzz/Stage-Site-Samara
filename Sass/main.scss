@@ -1,11 +1,13 @@
-@import "./Accueil/Accueil";
-@import "./Bijoux/Bijoux";
 @import "./Composants/Bouton";
-@import "./Contacter/Contacter";
-@import "./Fabrication/Fabrication";
+
 @import "./Layout/Footer";
 @import "./Layout/Header";
-@import "./QuiSommesNous/QuiSommesNous";
+
+@import "./Pages/Accueil";
+@import "./Pages/Bijoux";
+@import "./Pages/Contacter";
+@import "./Pages/Fabrication";
+@import "./Pages/QuiSuisJe";
 
 
 @import "./Utils/fonction";
