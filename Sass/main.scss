@@ -1,3 +1,7 @@
+@import "./Utils/fonction";
+@import "./Utils/mixins";
+@import "./Utils/variable";
+
 @import "./Composants/Bouton";
 
 @import "./Layout/Footer";
@@ -12,6 +16,3 @@
 @import "./Pages/QuiSuisJe";
 
 
-@import "./Utils/fonction";
-@import "./Utils/mixins";
-@import "./Utils/variable";

@@ -2,6 +2,14 @@
     display: flex;
 
     #LogoSamaraBijouxFt{
-        width: 180px;
+        width: 240px;
+    }
+
+    .ContactFooter{
+        margin-left: 10%;
+        h2{
+            font-size: x-large;
+            font-family: $FontTexte;
+        }
     }
 }
