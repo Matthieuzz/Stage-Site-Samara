@@ -1,16 +1,52 @@
-.FirstContainer{
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.FirstContainer {
     display: flex;
 
-    #LogoSamaraBijouxFt{
+    #LogoSamaraBijouxFt {
         width: 240px;
     }
 
-    .ContactFooter{
-        margin-left: 10%;
-        
-        h2{
-            font-size: x-large;
+    .ContactFooter {
+        margin-left: 40%;
+
+
+        .InfosTel {
             font-family: $FontTexte;
+            font-size: x-large;
         }
     }
+}
+
+
+h2 {
+    font-size: 40px;
+    font-family: $FontTitre;
+}
+
+
+.SecondContainer{
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    margin-right: 10%;
+
+    h2{
+        display: flex;
+        justify-content: center;
+    }
+    
+}
+.LogoFooter {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.LogoFooter img {
+    width: 75px;
+    
 }
