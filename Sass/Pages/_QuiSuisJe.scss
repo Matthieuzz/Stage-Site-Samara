@@ -1,11 +1,50 @@
-.Presentation{
+.TitreSamara {
     display: flex;
     justify-content: center;
-    align-items: center;
+    font-family: $FontNathalie;
+    font-size: 70px;
+    letter-spacing: 4px;
+    font-weight: 80;
+}
 
-    h1 .TitreSamara {
-        font-family: $FontTitre;
-        font-size: 40px;
-        color: aqua;
+.Présentation {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8%;
+    margin-right: 8%;
+    justify-content: center;
+    font-family: $FontTitre;
+    font-size: 45px;
+}
+
+.Bloc1{
+    display: flex;
+    margin-bottom: 10%;
+
+    .Description1{
+        display: flex;
+        align-items: center;
+        width: 55%;
+        margin-left: 5%;
+       line-height: 150%;
+    }
+}
+
+
+.Bloc1 img{
+    width: 500px;
+
+}
+
+
+.Bloc2{
+    display: flex;
+    margin-bottom: 10%;
+    .Description2{
+        display: flex;
+        align-items: center;
+        width: 55%;
+        margin-left: 5%;
+       line-height: 150%;
     }
 }
