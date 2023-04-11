@@ -1,23 +1,51 @@
-.Presentation{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.ContactHTSS{
+    background-color: $BackgroundAvis
+}
+
+    .TitreContact h1{
+        display: flex;
+        justify-content:flex-start;
+        margin-left: 10%;
+        margin-top: 0;
+        padding-top: 100px;
+        padding-bottom: 20px;
+        font-family: $FontNathalie;
+        font-weight: 70;
+        font-size: 80px;
+    }
+
+    form{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 15%;
+    }
 
     fieldset{
-        background-color: $BackgroundAvis ;
+        display: flex;
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
+        border-color: rgb(255, 255, 255);
+        border-width: 10px;
+
+        #SectionNom{
+            width: 30%;
+            height: 20%;
+        }
     }
-     
-    main .TitreContact h1{
-        font-family: $FontTitre;
-        font-size: 40px;
-       
-    }
-}
 
 .SectionForm{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-right: 0;
     width: 60%;
+
+    label{
+        font-size: x-large;
+    }
+
+    input{
+        width: 40%;
+        
+    }
 }
