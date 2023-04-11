@@ -1,0 +1,23 @@
+.Presentation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    fieldset{
+        background-color: $BackgroundAvis ;
+    }
+     
+    main .TitreContact h1{
+        font-family: $FontTitre;
+        font-size: 40px;
+       
+    }
+}
+
+.SectionForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 0;
+    width: 60%;
+}
