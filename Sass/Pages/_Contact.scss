@@ -3,9 +3,21 @@
     justify-content: center;
     align-items: center;
 
-    .MeContacter{
+    form{
+        background-color: $BackgroundAvis ;
+    }
+     
+    main .TitreContact h1{
         font-family: $FontTitre;
         font-size: 40px;
         color: aqua;
     }
+}
+
+.SectionForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 0;
+    width: 60%;
 }
