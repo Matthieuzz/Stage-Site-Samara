@@ -1,51 +1,58 @@
-.ContactHTSS{
+.ContactHTSS {
     background-color: $BackgroundAvis
 }
 
-    .TitreContact h1{
-        display: flex;
-        justify-content:flex-start;
-        margin-left: 10%;
-        margin-top: 0;
-        padding-top: 100px;
-        padding-bottom: 20px;
-        font-family: $FontNathalie;
-        font-weight: 70;
-        font-size: 80px;
-    }
+.TitreContact h1 {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10%;
+    margin-top: 0;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    font-family: $FontNathalie;
+    font-weight: 70;
+    font-size: 80px;
+}
 
-    form{
-        display: flex;
-        justify-content: center;
-        padding-bottom: 15%;
-    }
+form {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15%;
+}
 
-    fieldset{
-        display: flex;
-        margin-left: 10%;
-        margin-right: 10%;
-        width: 80%;
-        border-color: rgb(255, 255, 255);
-        border-width: 10px;
+fieldset {
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    border-color: solid rgb(255, 255, 255);
+    border-width: 20px;
 
-        #SectionNom{
-            width: 30%;
-            height: 20%;
-        }
-    }
+}
 
-.SectionForm{
+.SectionForm {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 60%;
+    flex-wrap: nowrap;
+    width: 90%;
 
-    label{
+    .NomPrenom {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 50%;
+    }
+
+    label {
         font-size: x-large;
     }
 
-    input{
-        width: 40%;
-        
+    input {
+        width: 80%;
+        border-radius: 2px;
+        border-color: $BackgroundAvis;
+    
     }
 }
