@@ -1,3 +1,60 @@
-.ImageGauche img{
-    width: 346px;
+.MiniPresentation {
+    display: flex;
+    justify-content: center;
+    width: 82%;
+    margin-left: 10%;
+    background-color: rgba(163, 155, 138, 0.342);
+    border-radius: 5px;
+}
+
+.BienvenueTitre {
+    font-size: 100px;
+    font-family: $FontNathalie;
+    font-weight: 100;
+    line-height: 140%;
+    letter-spacing: 5px;
+    margin-top: 4%;
+    margin-bottom: 1.5%;
+    padding-left: 5%;
+    color: #B4a188;
+}
+
+.TexteDroite {
+    font-size: 35px;
+    font-family: $FontTexte;
+    letter-spacing: 3px;
+    padding-left: 5%;
+    margin-top: 1.5%;
+}
+
+.ContenuTexteDroite {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.QuiSuisJeAccueil {
+    display: flex;
+    justify-content:center;
+    width: 65%;
+    font-size: 60px;
+    font-family: $FontTitre;
+    border: solid 3px;
+    border-width: 5px;
+    border-color: white;
+    margin-left: 15%;
+
+}
+
+.LienQSJ {
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+}
+
+.ImageGauche img {
+    width: 440px;
+    padding: 12% 12% 12% 12%;
 }
