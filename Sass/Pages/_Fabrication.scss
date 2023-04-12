@@ -2,13 +2,19 @@
     width: 60%;
    background-color: #ffffff;
    border-radius: 54% 46% 70% 30% / 53% 56% 44% 47% ;
+   box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.351) ;
 
 }
+
+main{
+   padding: 30px;
+}
+
 
 .fabrique {
     display: flex;
     flex-direction: row;
-margin-top: 25%;
+margin-top: 0%;
 margin-left: 40px;
 
    
@@ -20,11 +26,9 @@ margin: 30px;
 
 }
 
-
-
-
-
-
+.fabrik{
+    display: flex;
+}
 
 
 .back{
@@ -36,33 +40,73 @@ margin: 30px;
     display: flex;
 
   background-color:$BackgroundText;
- 
+ padding: 60px;
 }
 
 
 .txtFabrik p {
-    margin: 20px;
+  
     color: #000000;
-   
+
+  
 }
 
-.T{
-    font-size: 30px;
-    font-family:$FontTexte ;
-}
 
 
 .TitreFabrik{
-    z-index: 2;
-    position: absolute;
+  
     margin-left: 30px;
     color:  #ffffff;
     font-size: 25px;
 }
 
-.imgFabrik img{
-    z-index: 1;
+
+.imgFabrik img {
+    margin: 0%;
+    padding: 0%;
   
-    
 }
 
+// Bouton 
+
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: $BackgroundAvis ;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-left: 35%;
+    margin-top: 5%;
+    font-family: $FontTitre;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
