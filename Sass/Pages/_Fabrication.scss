@@ -1,6 +1,6 @@
 .fabrique img{
     width: 60%;
-   background-color: #E4DCD1;
+   background-color: #ffffff;
    border-radius: 54% 46% 70% 30% / 53% 56% 44% 47% ;
 
 }
@@ -8,27 +8,61 @@
 .fabrique {
     display: flex;
     flex-direction: row;
-    padding-top: 35%;
+margin-top: 25%;
+margin-left: 40px;
+
    
 }
 
 .fabrique p {
 font-family: $FontTexte;
 margin: 30px;
+
 }
 
 
 
 
-.fabrik h1 {
-    margin: 0%;
-    padding-top: 50px;
-    padding-left: 30px;
+
+
+
+
+.back{
+    background-color: $BackgroundText;
+ 
+}
+
+.ctnFabrik{
+    display: flex;
+
+  background-color:$BackgroundText;
+ 
+}
+
+
+.txtFabrik p {
+    margin: 20px;
+    color: #000000;
+   
+}
+
+.T{
+    font-size: 30px;
+    font-family:$FontTexte ;
+}
+
+
+.TitreFabrik{
+    z-index: 2;
+    position: absolute;
+    margin-left: 30px;
     color:  #ffffff;
-    font-size: 50px;
+    font-size: 25px;
 }
 
-.fabrik{
-    background-image:url(../../Images/bijoux\ fabrication.jpeg);
-    background-repeat: no-repeat;
+.imgFabrik img{
+    z-index: 1;
+  
+    
 }
+
