@@ -17,7 +17,7 @@
 form {
     display: flex;
     justify-content: center;
-    padding-bottom: 15%;
+    padding-bottom: 10%;
 }
 
 .FieldsetContact {
@@ -35,23 +35,46 @@ form {
     display: flex;
     flex-direction: column;
     width: 90%;
+    gap: 13px;
+    padding-top: 2%;
+    padding-bottom: 2%;
 
     .NomPrenom {
         display: flex;
-        padding-top: 0;
+        justify-content: space-between;
+        width: 77%;
     }
 
-    
+
     label {
-        font-size: x-large;
-        padding: 1% 1% 0% 1%;
+        display: flex;
+        align-items: center;
+        font-size: xx-large;
+        padding: 0% 1% 0% 1%;
     }
 
     input {
-        width: 80%;
-        height: 30px;
+        height: 40px;
+        font-size: x-large;
         border-radius: 5px;
         border-color: $BackgroundAvis;
-    
     }
+}
+
+#SectionNom {
+    width: 200%;
+
+}
+
+#SectionPrénom {
+    width: 200%;
+}
+
+#SectionMessage {
+    height: 150px;
+}
+
+#Envoyer {
+    width: 40%;
+    margin-top: 2%;
 }
