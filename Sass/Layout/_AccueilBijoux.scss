@@ -21,7 +21,7 @@
             align-items: center;
             text-decoration: none;
             color: black;
-            width: 64.5%;
+            width: 66.5%;
             border: solid 3px;
             border-width: 3px;
             border-color: rgb(3, 3, 3);
@@ -46,7 +46,7 @@
             align-items: center;
             text-decoration: none;
             color: black;
-            width: 64.5%;
+            width: 66.5%;
             border: solid 3px;
             border-width: 3px;
             border-color: rgb(3, 3, 3);
@@ -57,6 +57,7 @@
 }
 
 .ContainerHaut img {
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.351) ;
     width: 520px;
 }
 
@@ -84,7 +85,7 @@
             align-items: center;
             text-decoration: none;
             color: black;
-            width: 64.5%;
+            width: 66.5%;
             border: solid 3px;
             border-width: 3px;
             border-color: rgb(3, 3, 3);
@@ -108,7 +109,7 @@
             align-items: center;
             text-decoration: none;
             color: black;
-            width: 64.5%;
+            width: 66.5%;
             border: solid 3px;
             border-width: 3px;
             border-color: rgb(3, 3, 3);
@@ -119,5 +120,6 @@
 }
 
 .ContainerBas img {
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.351) ;
     width: 520px;
 }
