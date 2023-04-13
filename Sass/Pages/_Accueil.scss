@@ -1,4 +1,4 @@
-.Icones img{
+.Icones img {
     width: 128px;
 }
 
@@ -8,59 +8,59 @@
     font-weight: 400;
 }
 
-.Icones{
+.Icones {
     display: flex;
     justify-content: space-between;
     margin-left: 10%;
     margin-right: 10%;
 }
 
-.ContainerTruck{
+.ContainerTruck {
     display: flex;
     flex-direction: column;
     width: 30%;
     text-align: center;
 
-    img{
+    img {
         margin-left: 33%;
         margin-bottom: 5%;
     }
 }
 
-.ContainerTime{
+.ContainerTime {
     display: flex;
     flex-direction: column;
     margin-left: 5%;
     width: 30%;
     text-align: center;
 
-    img{
+    img {
         margin-left: 30%;
         margin-bottom: 5%;
     }
 }
 
-.ContainerComments{
+.ContainerComments {
     display: flex;
     flex-direction: column;
     margin-left: 5%;
     width: 30%;
     text-align: center;
 
-    img{
+    img {
         margin-left: 33%;
         margin-bottom: 5%;
     }
 }
 
-.ContainerGlobe{
+.ContainerGlobe {
     display: flex;
     flex-direction: column;
     margin-left: 5%;
     width: 30%;
     text-align: center;
 
-    img{
+    img {
         margin-left: 30%;
         margin-bottom: 5%;
     }
@@ -68,19 +68,19 @@
 
 // Section Vos avis 
 
-.TitreAvis{
+.TitreAvis {
     font-family: $FontNathalie;
     font-size: 40px;
     margin-left: 10%;
 }
 
-.VosAvis{
+.VosAvis {
     display: flex;
     flex-direction: column;
     margin-bottom: 5%;
     width: 100%;
 
-    p{
+    p {
         font-family: $FontTexte;
         font-size: x-large;
         color: white;
@@ -91,20 +91,20 @@
         line-height: 175%;
         padding: 30px 30px 30px 30px;
     }
-}  
+}
 
-.Avis1{
+.Avis1 {
     margin-left: 40%;
 }
 
-.Avis2{
+.Avis2 {
     margin-left: 10%
 }
 
-.Avis3{
+.Avis3 {
     margin-left: 40%
 }
 
-.Avis4{
+.Avis4 {
     margin-left: 10%
 }
