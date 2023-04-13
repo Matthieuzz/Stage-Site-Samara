@@ -26,32 +26,31 @@ form {
     margin-left: 10%;
     margin-right: 10%;
     width: 80%;
-    border-color: solid rgb(255, 255, 255);
-    border-width: 20px;
+    border-width: 10px;
+    border-color: rgba(20, 19, 19, 0.822) rgb(43, 38, 38);
 
 }
 
 .SectionForm {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    flex-wrap: nowrap;
     width: 90%;
 
     .NomPrenom {
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        width: 50%;
+        padding-top: 0;
     }
 
+    
     label {
         font-size: x-large;
+        padding: 1% 1% 0% 1%;
     }
 
     input {
         width: 80%;
-        border-radius: 2px;
+        height: 30px;
+        border-radius: 5px;
         border-color: $BackgroundAvis;
     
     }
