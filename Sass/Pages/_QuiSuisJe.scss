@@ -1,11 +1,10 @@
 .TitreSamara {
-    display: flex;
-    justify-content: center;
+    
     font-family: $FontNathalie;
-    font-size: 70px;
-    letter-spacing: 4px;
-    font-weight: 80;
-    margin-top: 7%;
+    font-size: 40px;
+
+  margin-left: 40px;
+   
     margin-bottom: 7%;
 }
 
@@ -52,4 +51,9 @@
         margin-right: 5%;
        line-height: 150%;
     }
+}
+
+main{
+    background-color: $BackgroundText;
+    margin: 0%;
 }

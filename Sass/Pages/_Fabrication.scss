@@ -7,12 +7,9 @@
 
 
 
-main {
-   background-color: #ffffff53;
-}
-
 .ctnfabrik2  {
-    background-color:$BackgroundText ;
+
+  background-color:#ede9e2;
 
 display: flex;
 flex-direction: row-reverse;
@@ -64,7 +61,7 @@ padding-top: 20px;
 .ctnFabrik{
     display: flex;
 
-  background-color:$BackgroundText;
+    background-color:#ede9e2;
  padding: 60px;
 }
 
@@ -80,6 +77,8 @@ margin: 0%;
 
 .txtFabrik{
     padding-left: 20px;
+    
+    background-color:#ffffff99;
 }
 
 .TitreFabrik h1{
