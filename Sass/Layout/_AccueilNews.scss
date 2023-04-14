@@ -1,1 +1,26 @@
 // Slider pour toi, ou si tu préfères que je le fasse, je peux le faire ^^
+
+.NouveautésTitre{
+    font-size: 70px;
+    font-family: $FontNathalie;
+    font-weight: 100;
+    margin-left: 3%;
+    margin-top: 0;
+    padding-top: 4%;
+}
+
+.Collections{
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+    margin-bottom: 8%;
+    font-size: 60px;
+    font-family: $FontNathalie;
+    font-weight: 100;
+
+    a{
+        color: black;
+        text-decoration-color: black;
+        
+    }
+}
