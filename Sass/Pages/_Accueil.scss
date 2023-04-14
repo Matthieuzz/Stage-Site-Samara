@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .Icones img {
     width: 128px;
 }
@@ -114,6 +118,37 @@
     width: 100%;
 }
 
+.BackToTopBtn {
+
+    .btn-primary {
+
+        display: flex;
+        justify-content: center;
+        background-color: $BackgroundAvis;
+        width: 100%;
+        border: 3px;
+        border-radius: 3px;
+        border-color: black;
+        margin-bottom: 0%;
+
+        a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            text-decoration: none;
+            color: beige;
+            font-size: xx-large;
+            padding-top: 1%;
+            padding-bottom: 1%;
+        
+        }
+    }
+
+    .btn-primary :hover{
+        background-color: #9e8f7e;
+    }
+}
 
 
 
@@ -140,199 +175,200 @@
 
 // carousel barre
 
-.carousel{
-body,
-button,
-input,
-select,
-optgroup,
-textarea {
-   
- 
-    font-size: 1rem;
-    line-height: 1.6;
-}
+.carousel {
 
-h1 {
-    font-size: 2rem;
-    margin: 2rem auto 1rem;
-    line-height: 1;
-}
-
-h2 {
-    font-size: 1.25rem;
-    margin-top: 0;
-}
-
-a {
-    color: inherit;
-    transition: 0.25s all ease-in-out;
-}
-
-a:visited {
-    color: #ffffff;
-}
-
-// a:hover,
-// a:focus,
-// a:active {
-//     background-color: #3d4852;
-//     color: white;
-// }
-
-// a:focus {
-//     outline: thin solid #3d4852;
-// }
+    body,
+    button,
+    input,
+    select,
+    optgroup,
+    textarea {
 
 
+        font-size: 1rem;
+        line-height: 1.6;
+    }
 
-// a.button {
-//     align-items: center;
-    
-//     border-radius: 4px;
-//     color: white;
-//     cursor: pointer;
-//     display: inline-flex;
-//     padding: 0.25rem 0.75rem;
-//     text-decoration: none;
-//     transition: all 0.25s ease-in-out;
-// }
+    h1 {
+        font-size: 2rem;
+        margin: 2rem auto 1rem;
+        line-height: 1;
+    }
 
-// a.button:hover,
-// a.button:focus {
-//     background-color: #58636F;
-//     box-shadow: 0 0 2px 2px #bac6d3;
-// }
+    h2 {
+        font-size: 1.25rem;
+        margin-top: 0;
+    }
 
-// a.button:focus {
-//     outline: 1px solid #3d4852;
-// }
+    a {
+        color: inherit;
+        transition: 0.25s all ease-in-out;
+    }
 
-// a.button:visited {
-//     color: #fff;
-// }
+    a:visited {
+        color: #ffffff;
+    }
 
-ul {
-   margin-left: 15%;
-   margin-right: 12%;
-}
+    // a:hover,
+    // a:focus,
+    // a:active {
+    //     background-color: #3d4852;
+    //     color: white;
+    // }
 
-li {
-    display: inline-block;
-}
-
-// svg {
-//     fill: currentColor;
-//     width: 1.5rem;
-//     height: 1.5rem;
-// }
-
-img {
-    height: auto;
-    margin-bottom: .5rem;
-    max-width: calc(100% + 2rem);
-    position: relative;
-    left: -1rem;
-    right: -1rem;
-}
-
-p {
-    margin: 0 0 .5rem;
-}
+    // a:focus {
+    //     outline: thin solid #3d4852;
+    // }
 
 
 
+    // a.button {
+    //     align-items: center;
+
+    //     border-radius: 4px;
+    //     color: white;
+    //     cursor: pointer;
+    //     display: inline-flex;
+    //     padding: 0.25rem 0.75rem;
+    //     text-decoration: none;
+    //     transition: all 0.25s ease-in-out;
+    // }
+
+    // a.button:hover,
+    // a.button:focus {
+    //     background-color: #58636F;
+    //     box-shadow: 0 0 2px 2px #bac6d3;
+    // }
+
+    // a.button:focus {
+    //     outline: 1px solid #3d4852;
+    // }
+
+    // a.button:visited {
+    //     color: #fff;
+    // }
+
+    ul {
+        margin-left: 15%;
+        margin-right: 12%;
+    }
+
+    li {
+        display: inline-block;
+    }
+
+    // svg {
+    //     fill: currentColor;
+    //     width: 1.5rem;
+    //     height: 1.5rem;
+    // }
+
+    img {
+        height: auto;
+        margin-bottom: .5rem;
+        max-width: calc(100% + 2rem);
+        position: relative;
+        left: -1rem;
+        right: -1rem;
+    }
+
+    p {
+        margin: 0 0 .5rem;
+    }
 
 
-.card {
-    border: 1px solid white;
-    border-radius: 8px;
-    padding: 20px;
-}
 
-/********************************
+
+
+    .card {
+        border: 1px solid white;
+        border-radius: 8px;
+        padding: 20px;
+    }
+
+    /********************************
 * Carousel styles
 *********************************/
-.carousel-items {
-    display: flex;
-    overflow-x: scroll;
-    padding: 1rem 0;
-    scroll-snap-type: x mandatory;
-}
+    .carousel-items {
+        display: flex;
+        overflow-x: scroll;
+        padding: 1rem 0;
+        scroll-snap-type: x mandatory;
+    }
 
-.carousel-item {
-    flex: 1 0 250px;
-    margin-left: 1rem;
-    scroll-snap-align: start;
-}
+    .carousel-item {
+        flex: 1 0 250px;
+        margin-left: 1rem;
+        scroll-snap-align: start;
+    }
 
-::-webkit-scrollbar-track {
-    background-color: #F5F5F5;
-    padding: 20px;
-}
+    ::-webkit-scrollbar-track {
+        background-color: #F5F5F5;
+        padding: 20px;
+    }
 
-::-webkit-scrollbar {
-    height: 6px;
-   margin-left: 20%;
-    background-color: #F5F5F5;
-}
+    ::-webkit-scrollbar {
+        height: 6px;
+        margin-left: 20%;
+        background-color: #F5F5F5;
+    }
 
-::-webkit-scrollbar-thumb {
-    background-color:$ColorBarre;
-    border-radius: 13px;
-    padding-left: 20px;
-    width: 20px;
-}
+    ::-webkit-scrollbar-thumb {
+        background-color: $ColorBarre;
+        border-radius: 13px;
+        padding-left: 20px;
+        width: 20px;
+    }
 
 
-/********************************
+    /********************************
 * Breakpoints
 *********************************/
-@media screen and (min-width: 576px) {
-    .carousel-item {
-        flex-basis: 300px;
-    }
-}
-
-@media screen and (min-width: 992px) {
-
-    body,
-    button,
-    input,
-    select,
-    optgroup,
-    textarea {
-        font-size: 1.125rem;
+    @media screen and (min-width: 576px) {
+        .carousel-item {
+            flex-basis: 300px;
+        }
     }
 
-    h1 {
-        font-size: 2.75rem;
+    @media screen and (min-width: 992px) {
+
+        body,
+        button,
+        input,
+        select,
+        optgroup,
+        textarea {
+            font-size: 1.125rem;
+        }
+
+        h1 {
+            font-size: 2.75rem;
+        }
+
+        .carousel-item {
+            flex-basis: 325px;
+        }
     }
 
-    .carousel-item {
-        flex-basis: 325px;
-    }
-}
+    @media screen and (min-width: 1280px) {
+        h1 {
+            font-size: 4rem;
+        }
 
-@media screen and (min-width: 1280px) {
-    h1 {
-        font-size: 4rem;
+        .carousel-item {
+            flex-basis: 450px;
+        }
     }
 
-    .carousel-item {
-        flex-basis: 450px;
-    }
-}
+    @media screen and (min-width: 1600px) {
 
-@media screen and (min-width: 1600px) {
-
-    body,
-    button,
-    input,
-    select,
-    optgroup,
-    textarea {
-        font-size: 1.25rem;
+        body,
+        button,
+        input,
+        select,
+        optgroup,
+        textarea {
+            font-size: 1.25rem;
+        }
     }
-}
 }
