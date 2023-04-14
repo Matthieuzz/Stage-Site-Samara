@@ -1,18 +1,18 @@
 .MiniPresentation {
     display: flex;
     justify-content: center;
-    width: 82%;
-    margin-left: 10%;
-    background-color: rgba(163, 155, 138, 0.342);
+    width: 90%;
+    margin-top: 90px;
+    margin-left: 5%;
+    
+    background-color: rgba(255, 255, 255, 0.526);
     border-radius: 5px;
 }
 
 .BienvenueTitre {
-    font-size: 100px;
+ 
     font-family: $FontNathalie;
-    font-weight: 100;
-    line-height: 140%;
-    letter-spacing: 5px;
+   font-size: 30px;
     margin-top: 4%;
     margin-bottom: 1.5%;
     padding-left: 5%;
@@ -20,7 +20,7 @@
 }
 
 .TexteDroite {
-    font-size: 35px;
+    font-size: 25px;
     font-family: $FontTexte;
     letter-spacing: 3px;
     padding-left: 5%;
@@ -30,18 +30,20 @@
 .ContenuTexteDroite {
     padding-left: 5%;
     padding-right: 5%;
+    padding-top: 10%;
 }
 
 .QuiSuisJeAccueil {
     display: flex;
     justify-content:center;
     width: 65%;
-    font-size: 60px;
+    font-size: 30px;
     font-family: $FontTitre;
     border: solid 3px;
     border-width: 5px;
-    border-color: white;
+    border-color: $BackgroundAvis ;
     margin-left: 15%;
+    margin-top: 80px;
 
 }
 
