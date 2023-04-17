@@ -30,3 +30,18 @@ font-family: $FontTexte;
     border: 1.5px solid;
     color: rgba(70, 70, 70, 0.70);
 }
+
+
+@media all and  (max-width: 500px){
+
+
+    a {
+      
+        font-size: 60px;
+        
+    }
+
+    .Navbar .Menu ul {
+        margin-right: 20px;
+    }
+}
