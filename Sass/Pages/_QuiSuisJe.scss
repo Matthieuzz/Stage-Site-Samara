@@ -81,5 +81,8 @@ main {
 // PASSAGE AU MEDIA QUERIES 
 
 @media screen and (max-width: 500px){
-    
+    html main{
+        width: 540px;
+        height: 500px ;
+    }
 }
