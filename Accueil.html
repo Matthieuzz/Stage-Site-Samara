@@ -18,15 +18,20 @@
 <body>
 
     <header>
-   <!-- Menu burger -->
-   <button id="btn-burger" class="burger">
-    <span class="burger-bar"></span>
-    <span class="burger-bar"></span>
-    <span class="burger-bar"></span>
-    <!-- Les <span> sont la pour faire apparaître les lignes du boutons burger -->
-</button>
-<nav class="main-nav-burger">
-   
+        <input type="checkbox" id="hamburger-input" class="burger-shower" />
+        <label id="hamburger-menu" for="hamburger-input">
+          <nav id="sidebar-menu">
+            <h3>Menu</h3>
+            <ul>
+                <li><a href="Bijoux.html" id="Bjx">Bijoux</a></li>
+                <li><a href="Fabrication.html" id="Fbc">Fabrications</a></li>
+                <li><a href="QuiSuis-Je.html" id="Qsj">Qui suis-je?</a></li>
+                <li><a href="Contact.html" id="Cnt">Contact</a></li>
+            </ul>
+          </nav>
+        </label>
+        
+        <div class="overlay"></div>
             <div class="NavBar">
 
                 <a href="Accueil.html"><img class="LogoSamaraBijoux" src="images/LogoSamaraBijoux.jpg"
