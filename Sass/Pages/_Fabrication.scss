@@ -98,7 +98,7 @@ margin: 0%;
 
 // Bouton 
 
-.button {
+.button3 {
     display: inline-block;
     border-radius: 4px;
     background-color: $BackgroundAvis ;
@@ -115,14 +115,14 @@ margin: 0%;
     font-family: $FontTitre;
   }
   
-  .button span {
+  .button3 span {
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.5s;
   }
   
-  .button span:after {
+  .button3 span:after {
     content: '\00bb';
     position: absolute;
     opacity: 0;
@@ -131,11 +131,11 @@ margin: 0%;
     transition: 0.5s;
   }
   
-  .button:hover span {
+  .button3:hover span {
     padding-right: 25px;
   }
   
-  .button:hover span:after {
+  .button3:hover span:after {
     opacity: 1;
     right: 0;
   }
