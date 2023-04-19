@@ -1,96 +1,97 @@
 .NavBar {
+  display: flex;
+
+  .Menu {
     display: flex;
+    width: 120%;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 5%;
+    margin-left: 15%;
 
-    .Menu {
-        display: flex;
-        width: 120%;
-        list-style-type: none;
-        align-items: center;
-        justify-content: space-evenly;
-        padding-left: 5%;
-        margin-left: 15%;
-
-        a {
-            color: black;
-            font-size: xx-large;
-            text-decoration: none;
-font-family: $FontTexte;
-        }
+    a {
+      color: black;
+      font-size: xx-large;
+      text-decoration: none;
+      font-family: $FontTexte;
     }
+  }
 }
 
 .LogoSamaraBijoux {
-    display: flex;
-    width: 150px;
-    justify-content: flex-start;
+  display: flex;
+  width: 150px;
+  justify-content: flex-start;
 
 }
 
-.Ligne{
-    border: 1.5px solid;
-    color: rgba(70, 70, 70, 0.70);
+.Ligne {
+  border: 1.5px solid;
+  color: rgba(70, 70, 70, 0.70);
 }
 
 // menu burger 
 
 
 .main-nav-burger {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: $grisFonce;
-    
-    height: 100%;
-    transform: translateX(0%);
-    transition: transform 0.3s ease-in-out;
-    z-index: 1;
-  }
-  
-  .main-nav-burger.visible {
-    transform: translateX(0%);
-    position: fixed;
-  }
-  
-  #btn-burger {
-    background-color: $special;
-    border: 0.1em solid;
-    display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: $grisFonce;
+
+  height: 100%;
+  transform: translateX(0%);
+  transition: transform 0.3s ease-in-out;
+  z-index: 1;
 }
+
+.main-nav-burger.visible {
+  transform: translateX(0%);
+  position: fixed;
+}
+
+#btn-burger {
+  background-color: $special;
+  border: 0.1em solid;
+  display: none;
+}
+
 .burger .burger-bar {
-    width: 30px;
-    height: 4px;
-    background-color: $grisFonce;
+  width: 30px;
+  height: 4px;
+  background-color: $grisFonce;
+  display: block;
+  margin: 5px auto;
+}
+
+@media screen and (max-width: 768px) {
+  #btn-burger {
     display: block;
-    margin: 5px auto;
+    position: fixed;
+    font-size: 3em;
+    z-index: 2;
+
   }
 
-  @media screen and (max-width: 768px) {
-    #btn-burger {
-      display: block;
-      position: fixed;
-      font-size: 3em;
-      z-index: 2;
-      
-    }
-  
 
-    .main-nav-burger.visible {
-      display: block;
-      position:fixed;
-      width: 70%;
-      z-index: 1;
-      
+  .main-nav-burger.visible {
+    display: block;
+    position: fixed;
+    width: 70%;
+    z-index: 1;
+
   }
- 
-  
+
+
 }
 
 @media screen and (max-width: 768px) {
   .burger {
     display: block;
-}
+  }
 
-.main-nav-burger {
+  .main-nav-burger {
     position: absolute;
     top: 0;
     left: 0;
@@ -100,38 +101,37 @@ font-family: $FontTexte;
     z-index: 1;
     transform: translateX(-100%);
     transition: transform 0.3s ease-in-out;
-}
+  }
 
-.main-nav-burger.show {
+  .main-nav-burger.show {
     transform: translateX(0%);
-}
+  }
 
-.main-nav-burger .Menu {
+  .main-nav-burger .Menu {
     margin-top: 80px;
+  }
+
+  .burger-bar {
+    display: block;
+    width: 24px;
+    height: 3px;
+    margin-bottom: 5px;
+    background-color: #333;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .burger.show .burger-bar:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+
+  .burger.show .burger-bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .burger.show .burger-bar:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -6px);
+  }
 }
-.burger-bar {
-  display: block;
-  width: 24px;
-  height: 3px;
-  margin-bottom: 5px;
-  background-color: #333;
-  transition: transform 0.3s ease-in-out;
-}
-
-.burger.show .burger-bar:nth-child(1) {
-  transform: rotate(45deg) translate(5px, 5px);
-}
-
-.burger.show .burger-bar:nth-child(2) {
-  opacity: 0;
-}
-
-.burger.show .burger-bar:nth-child(3) {
-  transform: rotate(-45deg) translate(7px, -6px);
-}
-}
-
- 
 
 
 
@@ -142,17 +142,19 @@ font-family: $FontTexte;
 
 
 
-@media all and  (max-width: 500px){
 
 
-    .NavBar .Menu a {
-      
-        font-size: 15px; 
-  
-        
-    }
+@media all and (max-width: 500px) {
+
+
+  .NavBar .Menu a {
+
+    font-size: 15px;
+
+
+  }
 
 
 
- 
+
 }
