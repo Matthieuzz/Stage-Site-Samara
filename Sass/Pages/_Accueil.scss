@@ -241,6 +241,15 @@ html {
         scroll-snap-align: start;
     }
 
+    h1 {
+        font-size: 4rem;
+    }
+
+    .carousel-item {
+        flex-basis: 450px;
+    }
+
+
     ::-webkit-scrollbar-track {
         background-color: #F5F5F5;
         padding: 20px;
@@ -258,28 +267,52 @@ html {
         padding-left: 20px;
         width: 20px;
     }
-
+}
 
 
 // medias queries Carroussel
 
 
    
-    @media screen and (min-width: 1280px) {
-        h1 {
-            font-size: 4rem;
-        }
-
-        .carousel-item {
-            flex-basis: 450px;
-        }
-
+   
+@media screen and (max-width: 500px) {
+    .card {
+      width: 40%;
+      height: 50%;
+      margin: 0%;
       
     }
 
-    .carousel   img {
+.carousel .carousel-item{
+    flex: 1 0 50px;
+}
+
+.carousel p {
+    font-size: 10px;
+    margin-left: -20px;
+
+    margin-right: -20px;
+}
+
+
+.carousel .card{
+    padding: 40px;
   
-position:0%;
-       
-    }
+}
+
+.card img {
+    width: 350px;
+}
+
+.carousel a:visited{
+    font-size: 5px;
+    color: #000000;
+}
+
+.carousel ul{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
 }

@@ -4,16 +4,16 @@
     width: 90%;
     margin-top: 90px;
     margin-left: 5%;
-    
+
     background-color: rgba(255, 255, 255, 0.526);
     border-radius: 5px;
 }
 
 .BienvenueTitre {
- 
+
     font-family: $FontNathalie;
-   font-size: 50px;
-   
+    font-size: 50px;
+
     margin-bottom: 1.5%;
     padding-left: 5%;
     color: #B4a188;
@@ -35,7 +35,7 @@
 
 .QuiSuisJeAccueil {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     width: 65%;
     font-size: 30px;
     font-family: $FontTitre;
@@ -59,4 +59,28 @@
 .ImageGauche img {
     width: 440px;
     padding: 12% 12% 12% 12%;
+}
+
+
+// medias queries
+
+@media screen and (max-width: 500px) {
+
+    .MiniPresentation {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ImageGauche img {
+        width: 320px;
+        padding: 12% 12% 12% 12%;
+    }
+
+    .BienvenueTitre {
+        font-size: 40px;
+    }
+
+    .TexteDroite {
+        font-size: 15px;
+    }
 }
