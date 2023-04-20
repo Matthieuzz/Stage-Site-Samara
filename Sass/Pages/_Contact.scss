@@ -76,3 +76,20 @@ form {
     width: 40%;
     margin-top: 2%;
 }
+
+
+// PASSAGE AUX MEDIA QUERIES 
+
+
+@media all and  (max-width: 500px)   {
+
+    .FieldsetContact{
+        width:90%;
+        margin-left: 2%;
+        margin-right: 2%;
+     }
+    
+     .TitreContact h1{
+        width: 70%;
+     }
+}
