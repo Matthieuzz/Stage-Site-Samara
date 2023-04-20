@@ -145,121 +145,127 @@
     .btn-primary :hover {
         background-color: #9e8f7e;
     }
-}             
+}
+
+html {
+    scroll-behavior: smooth;
+}
 
 // carousel barre
 
-.carousel{
-body,
-button,
-input,
-select,
-optgroup,
-textarea {
-   
- 
-    font-size: 1rem;
-    line-height: 1.6;
-}
 .carousel {
-    font-size: 1rem;
-    line-height: 1.6;
-}
 
-h1 {
-    font-size: 2rem;
-    margin: 2rem auto 1rem;
-    line-height: 1;
-}
+    body,
+    button,
+    input,
+    select,
+    optgroup,
+    textarea {
 
 
-p {
-    font-family: $FontTexte ;
-}
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+
+    .carousel {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+
+    h1 {
+        font-size: 2rem;
+        margin: 2rem auto 1rem;
+        line-height: 1;
+    }
 
 
-// a:hover,
-// a:focus,
-// a:active {
-//     background-color: #3d4852;
-//     color: white;
-// }
-
-a {
-    color: inherit;
-    transition: 0.25s all ease-in-out;
-}
-
-a:visited {
-    color: #ffffff;
-}
-
-// a:hover,
-// a:focus,
-// a:active {
-//     background-color: #3d4852;
-//     color: white;
-// }
-
-// a:focus {
-//     outline: thin solid #3d4852;
-// }
+    p {
+        font-family: $FontTexte ;
+    }
 
 
+    // a:hover,
+    // a:focus,
+    // a:active {
+    //     background-color: #3d4852;
+    //     color: white;
+    // }
 
-// a.button {
-//     align-items: center;
+    a {
+        color: inherit;
+        transition: 0.25s all ease-in-out;
+    }
 
-//     border-radius: 4px;
-//     color: white;
-//     cursor: pointer;
-//     display: inline-flex;
-//     padding: 0.25rem 0.75rem;
-//     text-decoration: none;
-//     transition: all 0.25s ease-in-out;
-// }
+    a:visited {
+        color: #ffffff;
+    }
 
-// a.button:hover,
-// a.button:focus {
-//     background-color: #58636F;
-//     box-shadow: 0 0 2px 2px #bac6d3;
-// }
+    // a:hover,
+    // a:focus,
+    // a:active {
+    //     background-color: #3d4852;
+    //     color: white;
+    // }
 
-// a.button:focus {
-//     outline: 1px solid #3d4852;
-// }
+    // a:focus {
+    //     outline: thin solid #3d4852;
+    // }
 
-// a.button:visited {
-//     color: #fff;
-// }
 
-ul {
-    margin-left: 15%;
-    margin-right: 12%;
-}
 
-li {
-    display: inline-block;
-}
+    // a.button {
+    //     align-items: center;
 
-// svg {
-//     fill: currentColor;
-//     width: 1.5rem;
-//     height: 1.5rem;
-// }
+    //     border-radius: 4px;
+    //     color: white;
+    //     cursor: pointer;
+    //     display: inline-flex;
+    //     padding: 0.25rem 0.75rem;
+    //     text-decoration: none;
+    //     transition: all 0.25s ease-in-out;
+    // }
 
-img {
-    height: auto;
-    margin-bottom: .5rem;
-    max-width: calc(100% + 2rem);
-    position: relative;
-    left: -1rem;
-    right: -1rem;
-}
+    // a.button:hover,
+    // a.button:focus {
+    //     background-color: #58636F;
+    //     box-shadow: 0 0 2px 2px #bac6d3;
+    // }
 
-p {
-    margin: 0 0 .5rem;
-}
+    // a.button:focus {
+    //     outline: 1px solid #3d4852;
+    // }
+
+    // a.button:visited {
+    //     color: #fff;
+    // }
+
+    ul {
+        margin-left: 15%;
+        margin-right: 12%;
+    }
+
+    li {
+        display: inline-block;
+    }
+
+    // svg {
+    //     fill: currentColor;
+    //     width: 1.5rem;
+    //     height: 1.5rem;
+    // }
+
+    img {
+        height: auto;
+        margin-bottom: .5rem;
+        max-width: calc(100% + 2rem);
+        position: relative;
+        left: -1rem;
+        right: -1rem;
+    }
+
+    p {
+        margin: 0 0 .5rem;
+    }
 
 
 
@@ -272,32 +278,32 @@ background-color: #ffffff76;
     padding: 30px;
 }
 
-/********************************
+    /********************************
 * Carousel styles
 *********************************/
-.carousel-items {
-    display: flex;
-    overflow-x: scroll;
-    padding: 2rem 0;
-    scroll-snap-type: x mandatory;
-}
+    .carousel-items {
+        display: flex;
+        overflow-x: scroll;
+        padding: 2rem 0;
+        scroll-snap-type: x mandatory;
+    }
 
-.carousel-item {
-    flex: 1 0 250px;
-    margin-left: 1rem;
-    scroll-snap-align: start;
-}
+    .carousel-item {
+        flex: 1 0 250px;
+        margin-left: 1rem;
+        scroll-snap-align: start;
+    }
 
-::-webkit-scrollbar-track {
-    background-color: #F5F5F5;
-    padding: 20px;
-}
+    ::-webkit-scrollbar-track {
+        background-color: #F5F5F5;
+        padding: 20px;
+    }
 
-::-webkit-scrollbar {
-    height: 6px;
-    margin-left: 20%;
-    background-color: #F5F5F5;
-}
+    ::-webkit-scrollbar {
+        height: 6px;
+        margin-left: 20%;
+        background-color: #F5F5F5;
+    }
 
     ::-webkit-scrollbar-thumb {
         background-color: $ColorBarre;
@@ -308,7 +314,7 @@ background-color: #ffffff76;
 
 
 
-/********************************
+    /********************************
 * Breakpoints
 *********************************/
     @media screen and (min-width: 576px) {
