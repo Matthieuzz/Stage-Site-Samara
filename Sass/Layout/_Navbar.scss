@@ -30,3 +30,31 @@
   border: 1.5px solid;
   color: rgba(70, 70, 70, 0.70);
 }
+
+
+ 
+@media screen and (max-width: 500px) {
+
+  .NavBar {
+    display: none;
+  
+    .Menu {
+    display: none;
+  
+      a {
+      display: none;
+      }
+    }
+  }
+  
+  .LogoSamaraBijoux {
+    display: none;
+   
+  }
+  
+  .Ligne {
+   display: none;
+  }
+  
+
+}

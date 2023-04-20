@@ -151,6 +151,9 @@ html {
     scroll-behavior: smooth;
 }
 
+
+
+
 // carousel barre
 
 .carousel {
@@ -183,14 +186,6 @@ html {
         font-family: $FontTexte ;
     }
 
-
-    // a:hover,
-    // a:focus,
-    // a:active {
-    //     background-color: #3d4852;
-    //     color: white;
-    // }
-
     a {
         color: inherit;
         transition: 0.25s all ease-in-out;
@@ -199,45 +194,6 @@ html {
     a:visited {
         color: #ffffff;
     }
-
-    // a:hover,
-    // a:focus,
-    // a:active {
-    //     background-color: #3d4852;
-    //     color: white;
-    // }
-
-    // a:focus {
-    //     outline: thin solid #3d4852;
-    // }
-
-
-
-    // a.button {
-    //     align-items: center;
-
-    //     border-radius: 4px;
-    //     color: white;
-    //     cursor: pointer;
-    //     display: inline-flex;
-    //     padding: 0.25rem 0.75rem;
-    //     text-decoration: none;
-    //     transition: all 0.25s ease-in-out;
-    // }
-
-    // a.button:hover,
-    // a.button:focus {
-    //     background-color: #58636F;
-    //     box-shadow: 0 0 2px 2px #bac6d3;
-    // }
-
-    // a.button:focus {
-    //     outline: 1px solid #3d4852;
-    // }
-
-    // a.button:visited {
-    //     color: #fff;
-    // }
 
     ul {
         margin-left: 15%;
@@ -248,13 +204,8 @@ html {
         display: inline-block;
     }
 
-    // svg {
-    //     fill: currentColor;
-    //     width: 1.5rem;
-    //     height: 1.5rem;
-    // }
-
     img {
+        z-index: 1;
         height: auto;
         margin-bottom: .5rem;
         max-width: calc(100% + 2rem);
@@ -268,19 +219,14 @@ html {
     }
 
 
-
-
-
     .card {
         border: 2px solid #B4a188;
-
+        background-color: #ffffff76;
         border-radius: 8px;
         padding: 30px;
     }
 
-    /********************************
-* Carousel styles
-*********************************/
+ 
     .carousel-items {
         display: flex;
         overflow-x: scroll;
@@ -290,6 +236,7 @@ html {
 
     .carousel-item {
         flex: 1 0 250px;
+        flex-basis: 450px;
         margin-left: 1rem;
         scroll-snap-align: start;
     }
@@ -314,35 +261,10 @@ html {
 
 
 
-    /********************************
-* Breakpoints
-*********************************/
-    @media screen and (min-width: 576px) {
-        .carousel-item {
-            flex-basis: 300px;
-        }
-    }
+// medias queries Carroussel
 
-    @media screen and (min-width: 992px) {
 
-        body,
-        button,
-        input,
-        select,
-        optgroup,
-        textarea {
-            font-size: 1.125rem;
-        }
-
-        h1 {
-            font-size: 2.75rem;
-        }
-
-        .carousel-item {
-            flex-basis: 325px;
-        }
-    }
-
+   
     @media screen and (min-width: 1280px) {
         h1 {
             font-size: 4rem;
@@ -351,17 +273,13 @@ html {
         .carousel-item {
             flex-basis: 450px;
         }
+
+      
     }
 
-    @media screen and (min-width: 1600px) {
-
-        body,
-        button,
-        input,
-        select,
-        optgroup,
-        textarea {
-            font-size: 1.25rem;
-        }
+    .carousel   img {
+  
+position:0%;
+       
     }
 }
