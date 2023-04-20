@@ -175,16 +175,17 @@ body {
     font-family: $FontTexte;
     background: linear-gradient(
       to bottom, 
-      #B4A188,  #B4A188 20%, 
+      #ffffff,  #ffffff 20%, 
       rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0) 40%, 
-      #B4A188,  #B4A188 40% 60%, 
+      #ffffff,  #ffffff 40% 60%, 
       rgba(255, 255, 255, 0) 60%, rgba(255, 255, 255, 0) 80%, 
-      #B4A188,  #B4A188 80% 100%
+      #ffffff,  #ffffff 80% 100%
     );
 }
 
 #hamburger-menu #sidebar-menu {
-    visibilty: hidden;
+
+   visibility: hidden;
     position: fixed;
     top: 0;
     left: -250px;
