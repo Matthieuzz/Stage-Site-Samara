@@ -105,23 +105,24 @@ main {
     .Bloc2 {
         display: flex;
         flex-direction: column;
-    
-    .Description2 {
-        margin-left: 23%;
-        font-size: 15px;
-        width: 60%;
+
+        .Description2 {
+            margin-left: 23%;
+            font-size: 15px;
+            width: 60%;
+        }
     }
-}
 
     .Bloc2 img {
         width: 344px;
         height: 300px;
     }
 
-    .MeDécrire{
+    .MeDécrire {
         font-size: 15px;
     }
-    .Bloc3 .Description3{
+
+    .Bloc3 .Description3 {
         font-size: 15px;
     }
 }
