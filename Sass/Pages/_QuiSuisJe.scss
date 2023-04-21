@@ -53,18 +53,18 @@
     }
 }
 
-.Bloc3{
+.Bloc3 {
     display: flex;
     flex-direction: column;
     line-height: 60px;
 
-    .Description3{
+    .Description3 {
         font-size: 30px;
         margin-bottom: 3%;
     }
 }
 
-.MeDécrire{
+.MeDécrire {
     display: flex;
     justify-content: center;
     font-size: 50px;
@@ -80,41 +80,41 @@ main {
 
 @media screen and (max-width: 500px) {
 
-    .Présentation h1{
+    .Présentation h1 {
         font-size: 30px;
         margin-left: 9%;
     }
 
-    .Bloc1 img{
-        width:300px ; 
+    .Bloc1 img {
+        width: 300px;
         margin-right: 10%;
     }
 
-    .Bloc1{
+    .Bloc1 {
         width: 100%;
     }
 
-    .Description1{
+    .Description1 {
         font-size: 25px;
         line-height: 130%;
-        margin: 0 ;
+        margin: 0;
         margin-left: 0;
         width: 100%;
     }
 
-    .Bloc2{
+    .Bloc2 {
         display: flex;
         flex-direction: column;
     }
 
-    .Description2{
+    .Description2 {
         margin-left: 20%;
         font-size: 25px;
         margin-right: 0;
 
     }
 
-    .Bloc2 img{
+    .Bloc2 img {
         width: 344px;
         height: 300px;
     }
