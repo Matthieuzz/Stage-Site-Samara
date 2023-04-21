@@ -278,8 +278,8 @@ html {
 @media screen and (max-width: 500px) {
     .card {
       width: 40%;
-      height: 50%;
-      margin: 0%;
+      height: 70%;
+  
       
     }
 
@@ -295,24 +295,29 @@ html {
 }
 
 
-.carousel .card{
+.carousel .card {
     padding: 40px;
   
 }
 
 .card img {
-    width: 350px;
+    width: 4000px;
 }
 
 .carousel a:visited{
-    font-size: 5px;
+    font-size: 2px;
     color: #000000;
+
+   
 }
 
 .carousel ul{
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
+.carousel-item a{
+    font-size: 14px;
+}
 
 }
