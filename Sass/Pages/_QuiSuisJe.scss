@@ -105,17 +105,27 @@ main {
     .Bloc2 {
         display: flex;
         flex-direction: column;
+        
     }
 
-    .Description2 {
-        margin-left: 20%;
-        font-size: 25px;
-        margin-right: 0;
+    .Bloc2 .Description2 {
+        margin-left: 10%;
+        font-size: 15px;
+        margin-right: 0%;
+  
+
+       
+     
 
     }
 
     .Bloc2 img {
         width: 344px;
         height: 300px;
+    }
+
+
+    .Bloc3 .Description3{
+font-size: 10px;
     }
 }

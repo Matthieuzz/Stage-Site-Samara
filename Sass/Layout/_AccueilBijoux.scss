@@ -131,6 +131,22 @@
    
 @media screen and (max-width: 500px) {
 
+    .ContainerHaut img {
+        width: 320px;
+    }
 
+    .ContainerBas img {
+        width: 320px;
+}
+
+
+.ContainerHaut {
+    display: flex;
+    flex-direction: column;
+}
+
+.ContainerBas
+{ display: flex;
+    flex-direction: column;}
 
 }

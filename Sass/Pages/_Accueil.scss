@@ -277,8 +277,9 @@ html {
    
 @media screen and (max-width: 500px) {
     .card {
-      width: 40%;
+      width: 50%;
       height: 70%;
+      margin-right: 60px;
   
       
     }
@@ -288,7 +289,7 @@ html {
 }
 
 .carousel p {
-    font-size: 10px;
+    font-size: 15px;
     margin-left: -20px;
 
     margin-right: -20px;
@@ -297,6 +298,7 @@ html {
 
 .carousel .card {
     padding: 40px;
+
   
 }
 
