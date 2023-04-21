@@ -151,7 +151,10 @@
   }
 
   .ctnFabrik img {
-    position: relative;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    bottom: 0;
     width: 180px;
     height: 200px;
   }
@@ -169,12 +172,19 @@
   .TitreFabrik p{
     width: 40%;
     font-size: 15px;
+    padding-left: 12px;
   }
 
   .txtFabrik{
     width: 50%;
   } 
+
   .TitreFabrik h1{
       font-size: 19px;
+      margin-left: 12px;
+    }
+
+    .fabrique{
+      width: 50%;
     }
 }
