@@ -16,6 +16,8 @@
     margin-top: 6%;
 }
 
+
+
 .ContainerTruck {
     display: flex;
     flex-direction: column;
@@ -226,7 +228,7 @@ html {
         padding: 30px;
     }
 
- 
+
     .carousel-items {
         display: flex;
         overflow-x: scroll;
@@ -273,53 +275,127 @@ html {
 // medias queries Carroussel
 
 
-   
-   
 @media screen and (max-width: 500px) {
     .card {
-      width: 50%;
-      height: 70%;
-      margin-right: 60px;
-  
-      
+        width: 50%;
+        height: 70%;
+        margin-right: 60px;
+
+
     }
 
-.carousel .carousel-item{
-    flex: 1 0 50px;
-}
+    .carousel .carousel-item {
+        flex: 1 0 50px;
+    }
 
-.carousel p {
-    font-size: 15px;
-    margin-left: -20px;
+    .carousel p {
+        font-size: 15px;
+        margin-left: -20px;
 
-    margin-right: -20px;
-}
+        margin-right: -20px;
+    }
 
 
-.carousel .card {
-    padding: 40px;
+    .carousel .card {
+        padding: 40px;
 
-  
-}
 
-.card img {
-    width: 4000px;
-}
+    }
 
-.carousel a:visited{
-    font-size: 2px;
-    color: #000000;
+    .card img {
+        width: 4000px;
+    }
 
-   
-}
+    .carousel a:visited {
+        font-size: 2px;
+        color: #000000;
 
-.carousel ul{
-    margin-left: 5%;
-    margin-right: 5%;
-}
 
-.carousel-item a{
-    font-size: 14px;
-}
+    }
 
-}
+    .carousel ul {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .carousel-item a {
+        font-size: 14px;
+    }
+
+
+    // médias quieries Icones 
+
+    @media screen and (max-width: 500px){
+    .Icones img {
+        width: 80px;
+    }
+
+    .Icones p {
+      
+        font-size: 15px;
+       
+    }
+
+    .Icones {
+        display: flex;
+        justify-content: space-between;
+        flex-direction:column;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 6%;
+    }
+
+    .ContainerTruck {
+        display: flex;
+        flex-direction: row;
+        width: 60%;
+        padding: 0%;
+      
+
+        img {
+            margin-left: 33%;
+            margin-bottom: 5%;
+            padding-right: 30%;
+        }
+    }
+
+    .ContainerTime {
+        display: flex;
+        flex-direction: column;
+        margin-left: 5%;
+        width: 30%;
+        text-align: center;
+
+        img {
+            margin-left: 30%;
+            margin-bottom: 5%;
+        }
+    }
+
+    .ContainerComments {
+        display: flex;
+        flex-direction: column;
+        margin-left: 5%;
+        width: 30%;
+        text-align: center;
+
+        img {
+            margin-left: 33%;
+            margin-bottom: 5%;
+        }
+    }
+
+    .ContainerGlobe {
+        display: flex;
+        flex-direction: column;
+        margin-left: 5%;
+        width: 30%;
+        text-align: center;
+
+        img {
+            margin-left: 30%;
+            margin-bottom: 5%;
+        }
+    }
+
+}}
