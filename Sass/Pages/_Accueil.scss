@@ -327,7 +327,8 @@ html {
 
     @media screen and (max-width: 500px){
     .Icones img {
-        width: 80px;
+        width: 90px;
+       
     }
 
     .Icones p {
@@ -347,10 +348,10 @@ html {
 
     .ContainerTruck {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         width: 60%;
         padding: 0%;
-      
+      margin-left: 20%;
 
         img {
             margin-left: 33%;
@@ -362,40 +363,48 @@ html {
     .ContainerTime {
         display: flex;
         flex-direction: column;
-        margin-left: 5%;
-        width: 30%;
-        text-align: center;
+        width: 60%;
+        padding: 0%;
+        margin-left: 20%;
+        padding-top: 20px;
 
         img {
             margin-left: 30%;
             margin-bottom: 5%;
+            padding-right: 30%;
         }
     }
 
     .ContainerComments {
         display: flex;
         flex-direction: column;
-        margin-left: 5%;
-        width: 30%;
-        text-align: center;
+        width: 60%;
+        padding: 0%;
+        margin-left: 20%;
+        padding-top: 20px;
 
         img {
             margin-left: 33%;
             margin-bottom: 5%;
+            padding-right: 30%;
         }
     }
 
     .ContainerGlobe {
         display: flex;
         flex-direction: column;
-        margin-left: 5%;
-        width: 30%;
-        text-align: center;
+        width: 60%;
+        padding: 0%;
+        margin-left: 20%;
+        padding-top: 20px;
 
         img {
             margin-left: 30%;
             margin-bottom: 5%;
+            padding-right: 30%;
         }
+
+    
     }
 
 }}
