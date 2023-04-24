@@ -50,3 +50,69 @@ h2 {
     width: 75px;
     
 }
+
+
+
+// medias quieries footer
+@media screen and (max-width: 500px){
+
+    footer {
+        display: flex;
+   
+    }
+    
+    .FirstContainer {
+        display: flex;
+    
+        #LogoSamaraBijouxFt {
+            width: 140px;
+            height: 140px;
+        }
+    
+        .ContactFooter {
+            margin-left: 0%;
+            margin-top: 15px;
+    
+            .InfosTel {
+                font-family: $FontTexte;
+                font-size: 10px;
+            }
+        }
+    }
+    
+    
+    h2 {
+        font-size: 15px;
+        font-family: $FontTitre;
+   
+    }
+    
+    
+    .SecondContainer{
+        display: flex;
+        width: 20%;
+        flex-direction: column;
+        margin-right: 10%;
+        margin-left: 5px;
+    
+        h2{
+            display: flex;
+            justify-content: center;
+            margin-top: 15px;
+        }
+        
+    }
+    
+    .LogoFooter {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    
+    .LogoFooter img {
+        width: 25px;
+        padding-right: 5px;
+        
+    }
+}
+

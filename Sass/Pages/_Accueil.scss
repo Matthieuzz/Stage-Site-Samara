@@ -272,6 +272,17 @@ html {
 }
 
 
+// medis queries bannière
+
+@media screen and (max-width: 500px){
+
+.hautDePage img{
+    width: 100%;
+    height: 100px;
+}
+    
+}
+
 // medias queries Carroussel
 
 
@@ -284,8 +295,13 @@ html {
 
     }
 
+    .carousel-item ul {
+        margin-right: 0%;
+    }
+
     .carousel .carousel-item {
         flex: 1 0 50px;
+        margin-left: 0%;
     }
 
     .carousel p {
@@ -303,7 +319,7 @@ html {
     }
 
     .card img {
-        width: 4000px;
+        width: 5000px;
     }
 
     .carousel a:visited {
@@ -408,3 +424,51 @@ html {
     }
 
 }}
+
+
+
+// medias quieries Avis
+
+@media screen and (max-width: 500px){
+.TitreAvis {
+    font-family: $FontNathalie;
+    color: #000000;
+    font-size: 20px;
+    margin-left: 10%;
+}
+
+.VosAvis {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5%;
+    width: 80%;
+
+    p {
+        font-family: $FontTexte;
+        font-size: 10px;
+        color: white;
+        background-color: $BackgroundAvis;
+        border-radius: 4px;
+        width: 60%;
+       
+        line-height: 175%;
+        padding: 30px 30px 30px 30px;
+    }
+}
+
+.Avis1 {
+    margin-left: 40%;
+}
+
+.Avis2 {
+    margin-left: 10%
+}
+
+.Avis3 {
+    margin-left: 40%
+}
+
+.Avis4 {
+    margin-left: 10%
+}
+}
