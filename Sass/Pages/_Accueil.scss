@@ -256,6 +256,14 @@ html {
         padding-bottom: 43px;
     }
 
+    .card5{
+        border: 2px solid #B4a188;
+        background-color: #ffffff76;
+        border-radius: 8px;
+        padding: 30px;
+        padding-bottom: 25px;
+    }
+
     .carousel-items {
         display: flex;
         overflow-x: scroll;
@@ -348,6 +356,14 @@ html {
 
     }
 
+    .card5 {
+        width: 50%;
+        height: 70%;
+        margin-right: 65px;
+
+
+    }
+
 
     .carousel-item ul {
         margin-right: 0%;
@@ -388,7 +404,11 @@ html {
 
     }
 
+    .carousel .card5 {
+        padding: 40px;
 
+
+    }
 
     .card img {
         width: 5000px;
@@ -401,8 +421,6 @@ html {
     .carousel a:visited {
         font-size: 2px;
         color: #000000;
-   
-
 
     }
 
