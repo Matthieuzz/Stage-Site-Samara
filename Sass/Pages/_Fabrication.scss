@@ -145,11 +145,6 @@
 
 @media all and (max-width: 500px) {
 
-  .fabrique img{
-    width: 180px;
-    height: 200px;
-  }
-
   .ctnFabrik img {
     position: -webkit-sticky;
     position: sticky;
@@ -159,32 +154,51 @@
     height: 200px;
   }
 
-  .ctnfabrik2 img{
-    width: 240px;
-    height: 220px;
-  }
-
-  .ctnFabrik{
+  .ctnFabrik {
     padding-left: 0;
     padding-top: 0;
   }
 
-  .TitreFabrik p{
+  .TitreFabrik p {
     width: 40%;
-    font-size: 15px;
+    font-size: 20px;
     padding-left: 12px;
+    margin: 0;
   }
 
-  .txtFabrik{
-    width: 50%;
-  } 
+  .txtFabrik {
+    width: 100%;
+  }
 
-  .TitreFabrik h1{
-      font-size: 19px;
-      margin-left: 12px;
-    }
+  .TitreFabrik h1 {
+    font-size: 19px;
+    margin-left: 12px;
+  }
 
-    .fabrique{
-      width: 50%;
-    }
+  .fabrique img {
+    width: 120px;
+    height: 100px;
+  }
+
+  .fabrique{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    
+  }
+
+  .ctnfabrik2 {
+    padding-left: 10%;
+  }
+
+  .img2 {
+    width: 100%;
+  }
+
+  .ctnfabrik2 img {
+    width: 240px;
+    height: 220px;
+  }
+
+ 
 }
