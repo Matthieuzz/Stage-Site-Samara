@@ -66,3 +66,75 @@
 
 }
 
+
+@media screen and (max-width: 500px) {
+
+    .BackgroundColor{
+        background-color: #ede9e2;
+        padding-bottom: 70px;
+    }
+    
+    
+    .co1{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+      
+    
+    }
+    
+    .co2{
+        display: flex;
+        flex-direction:inherit;
+        gap: 30px;
+       
+    }
+    
+    .S1{
+        margin-left: 22%;
+        padding-top: 50px;
+     
+    }
+    
+    .Bijouxctn .Boucles-Doreilles{
+        margin-left: 25.5%;
+    }
+    
+    .Bijouxctn{
+        h1{
+           margin-left: 31%;
+           font-family: 'Dancing Script', cursive;
+           font-size: 50px;
+           color: #B4A188;
+           
+        }
+    
+       
+    
+        p{
+            text-align: center;
+            background-color: #ffffff;
+           padding-top: 20px;
+           margin-top: 2px;
+           padding-bottom: 20px ;
+           font-family: 'Quicksand', sans-serif;
+           font-size: 10px;
+           padding-right: 20px;
+           padding-left: 20px;
+           width: 100px;
+           height:65px ;
+           box-shadow: 0 0 0.5em rgba(38, 38, 38, 0.326) ;
+           
+        }
+    
+        img{
+            box-shadow: 0 0 0.5em rgba(38, 38, 38, 0.326) ;
+            width: 70%;
+        }
+    }
+    
+    .Un{
+        margin-bottom: 40px;
+    
+    }
+}
