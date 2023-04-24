@@ -194,7 +194,7 @@ html {
     }
 
     a:visited {
-        color: #ffffff;
+        color: #000000;
     }
 
     ul {
@@ -226,6 +226,7 @@ html {
         background-color: #ffffff76;
         border-radius: 8px;
         padding: 30px;
+       
     }
 
 
@@ -234,6 +235,33 @@ html {
         background-color: #ffffff76;
         border-radius: 8px;
         padding: 30px;
+        padding-bottom: 43px;
+    }
+
+    
+    .card3{
+        border: 2px solid #B4a188;
+        background-color: #ffffff76;
+        border-radius: 8px;
+        padding: 30px;
+        padding-bottom: 43px;
+    }
+
+
+    .card4{
+        border: 2px solid #B4a188;
+        background-color: #ffffff76;
+        border-radius: 8px;
+        padding: 30px;
+        padding-bottom: 43px;
+    }
+
+    .card5{
+        border: 2px solid #B4a188;
+        background-color: #ffffff76;
+        border-radius: 8px;
+        padding: 30px;
+        padding-bottom: 25px;
     }
 
     .carousel-items {
@@ -298,7 +326,7 @@ html {
         width: 50%;
         height: 70%;
         margin-right: 60px;
-
+       
 
     }
 
@@ -306,6 +334,32 @@ html {
         width: 50%;
         height: 70%;
         margin-right: 20px;
+       
+
+    }
+
+
+    .card3 {
+        width: 50%;
+        height: 70%;
+        margin-right: 5px;
+
+
+    }
+
+    
+    .card4 {
+        width: 50%;
+        height: 70%;
+        margin-right: 65px;
+
+
+    }
+
+    .card5 {
+        width: 50%;
+        height: 70%;
+        margin-right: 65px;
 
 
     }
@@ -338,6 +392,24 @@ html {
 
     }
 
+    .carousel .card3 {
+        padding: 40px;
+
+
+    }
+
+    .carousel .card4 {
+        padding: 40px;
+
+
+    }
+
+    .carousel .card5 {
+        padding: 40px;
+
+
+    }
+
     .card img {
         width: 5000px;
     }
@@ -349,7 +421,6 @@ html {
     .carousel a:visited {
         font-size: 2px;
         color: #000000;
-
 
     }
 
