@@ -2,22 +2,12 @@
     background-color: $BackgroundText
 }
 
-.TitreContact h1 {
-    display: flex;
-    justify-content: flex-start;
-    margin-left: 10%;
-    margin-top: 0;
-    padding-top: 100px;
-    padding-bottom: 20px;
-    font-family: $FontNathalie;
-    font-weight: 70;
-    font-size: 80px;
-}
 
 form {
     display: flex;
     justify-content: center;
     padding-bottom: 10%;
+    padding-top:10%;
 }
 
 .FieldsetContact {
@@ -26,8 +16,16 @@ form {
     margin-left: 10%;
     margin-right: 10%;
     width: 80%;
-    border-width: 10px;
-    border-color: rgba(20, 19, 19, 0.822) rgb(43, 38, 38);
+    border-width: 5px;
+    border-color: rgb(255, 255, 255);
+    
+}
+
+legend {
+    color: rgb(0, 0, 0);
+    font-family: $FontTexte ;
+    font-size: 60px;
+  text-align: center;
 }
 
 .SectionForm {
@@ -56,7 +54,11 @@ form {
         font-size: x-large;
         border-radius: 5px;
         border-color: $BackgroundAvis;
+        box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.239);
     }
+
+
+    
 }
 
 #SectionNom {
@@ -86,11 +88,81 @@ form {
     
     .FieldsetContact{
         width:90%;
-        margin-left: 2%;
-        margin-right: 2%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 20%;
      }
     
-     .TitreContact h1{
-        width: 70%;
+     legend{
+      
+        font-size: 30px;
      }
+
+     
+    input {
+        height: 30px;
+        font-size: 20px;
+
+       
+    }
+
+   
+    .NomPrenom{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    label#Name{
+        font-size: 110% ;
+    }
+
+   
+    
+    label#Surname{
+        font-size: 110% ;
+        padding-top: 20px;
+    }
+    
+    label#E-mail{
+        font-size: 110% ;
+    }
+
+    label#Phone{
+        font-size: 110% ;
+    }
+    
+
+    label#Adress{
+        font-size: 110% ;
+    }
+
+    label#City{
+        font-size: 110% ;
+    }
+
+    label#Message{
+        font-size: 110% ;
+    }
+
+
+#SectionNom {
+    width: 100%;
+
+}
+
+ #SectionPrénom {
+    width: 100%;
+
+
+}
+
+#SectionMessage {
+    height: 150px;
+}
+
+#Envoyer {
+    width: 50%;
+    margin-top: 2%;
+}
 }
