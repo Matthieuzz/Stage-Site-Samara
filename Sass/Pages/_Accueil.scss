@@ -221,13 +221,20 @@ html {
     }
 
 
-    .card {
+    .card  {
         border: 2px solid #B4a188;
         background-color: #ffffff76;
         border-radius: 8px;
         padding: 30px;
     }
 
+
+    .card1{
+        border: 2px solid #B4a188;
+        background-color: #ffffff76;
+        border-radius: 8px;
+        padding: 30px;
+    }
 
     .carousel-items {
         display: flex;
@@ -295,13 +302,22 @@ html {
 
     }
 
+    .card1 {
+        width: 50%;
+        height: 70%;
+        margin-right: 20px;
+
+
+    }
+
+
     .carousel-item ul {
         margin-right: 0%;
     }
 
     .carousel .carousel-item {
         flex: 1 0 50px;
-        margin-left: 0%;
+       
     }
 
     .carousel p {
@@ -314,11 +330,19 @@ html {
 
     .carousel .card {
         padding: 40px;
+    }
+
+    .carousel .card1 {
+        padding: 40px;
 
 
     }
 
     .card img {
+        width: 5000px;
+    }
+
+    .card1 img {
         width: 5000px;
     }
 
